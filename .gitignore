@@ -1,0 +1,24 @@
+# IDE / JetBrains
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment files / secrets
+.env
+*.env
+
+# Docker / database local data
+data/
+mysql_data/
+*.pid
+
+# Backups / dumps
+*.dump
+*.sql.gz
+*.bak
