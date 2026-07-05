@@ -11,7 +11,7 @@ services:
     ports:
       - "3306:3306"
     volumes:
-      - mysql_data:/var/lib/mysql
+      - ./volumes/mysql_data:/var/lib/mysql
 
   adminer:
     image: adminer
@@ -22,5 +22,3 @@ services:
     depends_on:
       - mysql
 
-volumes:
-  mysql_data:
